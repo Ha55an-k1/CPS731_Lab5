@@ -9,13 +9,12 @@ import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
 
-
-
 public class Splash extends AppCompatActivity {
     MediaPlayer soundbite;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_splash);
 
         soundbite= new MediaPlayer();
@@ -32,7 +31,7 @@ public class Splash extends AppCompatActivity {
             }
         };
 
-        Timer oppening= new Timer();
-        oppening.schedule(task,5000);
+        Timer opening= new Timer();
+        opening.schedule(task,5000);
     }
 }

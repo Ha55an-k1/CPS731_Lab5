@@ -25,8 +25,6 @@ public class DummyContent {
      */
     public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
 
-    private static final int COUNT = 25;
-
     static {
 
         addItem(new DummyItem("1","Kid Cudi","Alternative/Neo Psychedelic Hiphop & Rock"));
@@ -40,10 +38,6 @@ public class DummyContent {
         addItem(new DummyItem("8","Lil Yachty","Hiphop/Bubblegum Trap"));
         addItem(new DummyItem("9","Travis Scott","Psychedelic Trap"));
 
-
-//        // Add some sample items.
-//        for (int i = 1; i <= COUNT; i++) {
-//            addItem(createDummyItem(i));
         }
 
 
