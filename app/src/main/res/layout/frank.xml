@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutDetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ivImage2"
+            android:src="@drawable/frank"
+            android:scaleType="centerCrop"
+            android:contentDescription="frank" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="Visionary American recording artist Frank Ocean is one of the most celebrated and critically acclaimed artists of this era.\n\n His heavily lauded breakout mixtape ‘Nostalgia Ultra’ in 2011 set the tone for what would be the Grammy-Award winning record ‘Channel Orange’. After a four year break, Ocean dropped one of the most anticipated albums of all time ‘Endless’, followed a day later by the seminal and game-changing album ‘Blonde’"
+            android:scrollbars=""
+            android:textSize="19sp"
+            android:id="@+id/txtDescription"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

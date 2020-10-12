@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutDetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ivImage2"
+            android:src="@drawable/peggy"
+            android:scaleType="centerCrop"
+            android:contentDescription="peggy" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="JPEGMAFIA makes confrontational, experimental rap that challenges both the left and right wings. His scathing lyrics target subjects including racist Internet trolls, hipsters, cops, and numerous rock and pop stars, calling out cultural appropriation as well as token nods to diversity. While unflinching and direct, his verses are delivered with a dark sense of humor; he sometimes evokes the perspective of the people he's taking shots at without clarifying his intentions, potentially confusing the listener. His song titles, including \'I'll Never Forgive Hipsters for What They Did to Brooklyn\' and \'I Cannot Fucking Wait Until Morrissey Dies,\' speak volumes. His productions are fittingly abrasive and fractured, puncturing trap beats with glitches and noise bursts. After releasing several tapes beginning in 2015, JPEGMAFIA first began receiving widespread attention for his 2018 full-length Veteran.\n Barrington DeVaughn Hendricks was born to Jamaican parents in New York in 1989. He grew up in Queens and Brooklyn before moving to Alabama when he was 13. After high school, he joined the Air Force and was deployed to Iraq and other locations in the Middle East, additionally spending time in Germany and Japan. He began producing music while in the military and formed a group called Ghostpop while in Japan. After he was honorably discharged in 2015, he moved to Baltimore and began using the name JPEGMAFIA for his solo work, releasing tapes such as Communist Slow Jams and Darkskin Manson that year. Originally self-released, the full-length Black Ben Carson appeared in 2016, as did The 2nd Amendment (with Freaky), on Los Angeles label Deathbomb Arc.\n\n TA13OOAfter Hendricks moved to Los Angeles, Deathbomb Arc released JPEGMAFIA's album Veteran in 2018. Following its surprise success, he toured throughout the world, often to sold-out crowds, and appeared on Denzel Curry's album TA13OO. A single titled \'Puff Daddy\' (with Kenny Beats) arrived in November. In 2019, he issued a handful of singles including \'The Who,\' \'Jesus Forgive Me, I Am a Thot,\' and \'Awake\' with Tkay Maidza. The album All My Heroes Are Cornballs arrived in September, and became the rapper's first album to chart in the Billboard 200.'"
+            android:scrollbars=""
+            android:textSize="19sp"
+            android:id="@+id/txtDescription"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutDetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ivImage2"
+            android:src="@drawable/joji"
+            android:scaleType="centerCrop"
+            android:contentDescription="joji" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:scrollbars=""
+            android:text="Joji is one of the most enthralling artists of the digital age. New album Nectar arrives as an eagerly anticipated follow-up to Joji’s RIAA Gold-certified first full-length album BALLADS 1, which topped the Billboard R&amp;B / Hip-Hop Charts and has amassed 3.6B+ streams to date. The “first music superstar of his kind” (Office), Joji is back with a cinematic and contemplative follow-up that he describes as having “a sense of urgency but calm.” Across its expansive universe of visuals and music, Nectar explores what every living being is innately drawn to and the ends they’ll go to reach it. The album lives in the in-between space where genres melt into each other. Executive produced and arranged by Joji, Nectar is his most ambitious project to date and an album that “far exceeds anything else we’ve heard thus far” (NYLON)."
+            android:textSize="19sp"
+            android:id="@+id/txtDescription"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

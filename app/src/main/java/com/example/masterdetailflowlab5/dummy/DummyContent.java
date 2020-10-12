@@ -1,5 +1,7 @@
 package com.example.masterdetailflowlab5.dummy;
 
+import com.example.masterdetailflowlab5.R;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -26,29 +28,42 @@ public class DummyContent {
     private static final int COUNT = 25;
 
     static {
-        // Add some sample items.
-        for (int i = 1; i <= COUNT; i++) {
-            addItem(createDummyItem(i));
+
+        addItem(new DummyItem("1","Kid Cudi","Alternative/Neo Psychedelic Hiphop & Rock"));
+        addItem(new DummyItem("2","Frank Ocean","Alternate/Experimental R&B"));
+        addItem(new DummyItem("3","JOJI","Alternative/Lofi R&B & Pop"));
+        addItem(new DummyItem("4","Mac Miller","Hiphop/Jazzhop"));
+        addItem(new DummyItem("5","JPEGMAFIA","Experimental Hiphop/R&B"));
+
+        addItem(new DummyItem("6","Lil Uzi Vert","Emo/Punk Rap"));
+        addItem(new DummyItem("7","The Weeknd","Pop/R&B"));
+        addItem(new DummyItem("8","Lil Yachty","Hiphop/Bubblegum Trap"));
+        addItem(new DummyItem("9","Travis Scott","Psychedelic Trap"));
+
+
+//        // Add some sample items.
+//        for (int i = 1; i <= COUNT; i++) {
+//            addItem(createDummyItem(i));
         }
-    }
+
 
     private static void addItem(DummyItem item) {
         ITEMS.add(item);
         ITEM_MAP.put(item.id, item);
     }
 
-    private static DummyItem createDummyItem(int position) {
-        return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
-    }
-
-    private static String makeDetails(int position) {
-        StringBuilder builder = new StringBuilder();
-        builder.append("Details about Item: ").append(position);
-        for (int i = 0; i < position; i++) {
-            builder.append("\nMore details information here.");
-        }
-        return builder.toString();
-    }
+//    private static DummyItem createDummyItem(int position) {
+//        return new DummyItem(String.valueOf(position), "Item " + position, makeDetails(position));
+//    }
+//
+//    private static String makeDetails(int position) {
+//        StringBuilder builder = new StringBuilder();
+//        builder.append("Details about Item: ").append(position);
+//        for (int i = 0; i < position; i++) {
+//            builder.append("\nMore details information here.");
+//        }
+//        return builder.toString();
+//    }
 
     /**
      * A dummy item representing a piece of content.
@@ -58,10 +73,12 @@ public class DummyContent {
         public final String content;
         public final String details;
 
-        public DummyItem(String id, String content, String details) {
+        public DummyItem(String id, String content,String details ) {
             this.id = id;
             this.content = content;
             this.details = details;
+
+
         }
 
         @Override

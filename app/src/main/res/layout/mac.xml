@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutDetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ivImage2"
+            android:src="@drawable/mac"
+            android:scaleType="centerCrop"
+            android:contentDescription="yachty" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="Coming on the scene with a throwback style that betrayed his years, Pittsburgh-based rapper and producer Mac Miller combined languid vocals, playful rhymes, and hypnotic production influenced by OutKast, Beastie Boys, A Tribe Called Quest, and Lauryn Hill. His debut full-length, Blue Slide Park, topped the charts upon release. Subsequent efforts kept him in the Top Five into 2016, when he hit another peak with The Divine Feminine, which topped the RnB and rap charts. Miller followed up with the Top Three-charting Swimming in 2018, but the rapper died a month after the album's release. Following his death, his albums crashed the Billboard 200 as mourning fans flocked to his early output. Miller's first posthumous album, Circles, was completed by producer Jon Brion and released in early 2020, peaking at number three on the U.S. charts.\n'   'KIDS: Kickin' Incredibly Dope ShitBorn Malcolm McCormick, Miller first used the alias Easy Mac, a name referenced on his debut mixtape, 2007's But My Mackin' Ain't Easy. His KIDS mixtape became his breakthrough when it was released in August of 2010, earning plenty of attention from hip-hop blogs and landing Miller a recording contract with Rostrum Records. Rostrum released his debut EP, On and on and Beyond, and his debut album, Blue Slide Park, in 2011. The album debuted at number one on the Billboard 200. His seventh mixtape, Macadelic, arrived the next year, featuring appearances by Kendrick Lamar, Juicy J, Cam'ron, Lil Wayne, and more (the set was later remastered for a spring 2018 release). The more experimental effort Watching Movies with the Sound Off followed in 2013, with left-field hip-hop names like Action Bronson, Earl Sweatshirt, and Flying Lotus lending a hand. A year later he signed with Warner Bros. and launched his own imprint, REMember Music, under the major label.\n'   'GO:OD AMGO:OD AM followed in 2015 with Lil B, Chief Keef, and Miguel on the album's guest list. The single \'100 Grandkids\' peaked appropriately at number 100, while \'Weekend\' was certified gold. Just a year after GO:OD AM ascended to the Top Five of the Billboard 200 and rap charts, Miller returned with his fourth LP, The Divine Feminine. The album featured contributions from guests like Kendrick Lamar, Cee Lo Green, Ariana Grande, Robert Glasper, and Anderson.Paak, who lent his soulful rasp to first single \'Dang!\' A pair of non-album singles (\'Buttons\' and \'Programs\') kept Miller busy into 2018, when he issued his fifth album, Swimming. Debuting at number three on both the Billboard 200 and RnB/hip-hop charts, the set included the songs \'Small Worlds,\' \'Self-Care,\' and \'What's the Use?\' A month after the release of the effort, Miller died from a suspected drug overdose in his San Fernando Valley home. He was 26 years old. Following his death, seven of his albums posthumously charted on the Billboard 200, including the debut appearances of Best Day Ever and Macadelic. In early 2020, his first posthumous set was released. Intended as a companion to Swimming, Circles featured vocals recorded for this eventual project, which was completed by producer Jon Brion. The LP became Miller's fifth Top Three showing on the U.S. charts. Later that year, KIDS was released to streaming services for the first time, which helped place it back on the Billboard 200."
+            android:scrollbars=""
+            android:textSize="19sp"
+            android:id="@+id/txtDescription"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -64,7 +64,35 @@ public class MusicianDetailFragment extends Fragment {
 
         // Show the dummy content as text in a TextView.
         if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.musician_detail)).setText(mItem.details);
+
+            if(mItem.id.equals("1")){
+                rootView= inflater.inflate(R.layout.cudi,container,false);
+            }
+            if(mItem.id.equals("2")){
+                rootView= inflater.inflate(R.layout.frank,container,false);
+            }
+            if(mItem.id.equals("3")){
+                rootView= inflater.inflate(R.layout.joji,container,false);
+            }
+            if(mItem.id.equals("4")){
+                rootView= inflater.inflate(R.layout.mac,container,false);
+            }
+            if(mItem.id.equals("5")){
+                rootView= inflater.inflate(R.layout.peggy,container,false);
+            }
+            if(mItem.id.equals("6")){
+                rootView= inflater.inflate(R.layout.uzi,container,false);
+            }
+            if(mItem.id.equals("7")){
+                rootView= inflater.inflate(R.layout.weeknd,container,false);
+            }
+            if(mItem.id.equals("8")){
+                rootView= inflater.inflate(R.layout.yachty,container,false);
+            }
+            if(mItem.id.equals("9")){
+                rootView= inflater.inflate(R.layout.tscott,container,false);
+            }
+           // ((TextView) rootView.findViewById(R.id.musician_detail)).setText(mItem.details);
         }
 
         return rootView;

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutDetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ivImage2"
+            android:src="@drawable/cudi"
+            android:scaleType="centerCrop"
+            android:contentDescription="cudi" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="Kid Cudi is a Brooklyn-based rapper from Cleveland whose debut single, \'Day 'n' Nite,\' became an online favorite in 2008. Born Scott Ramon Seguro Mescudi in suburban Cleveland, his career took off after he moved to Brooklyn and became affiliated with Fool's Gold, the label of DJs A-Trak and Nick Catchdubs. The label released the Day 'n' Nite EP in February 2008 and circulated a Crookers remix around the blogosphere, drumming up a good deal of buzz in the process.\n \n It didn't hurt that Kid Cudi began to receive increasing press attention, including a nod from Rolling Stone (which touted him among the magazine's Top Five best indie hip-hop artists of 2008). Not long after the release of \'Day 'n' Nite,\' Cudi began touring with the Fool's Gold collective, which performed at a South by Southwest showcase and subsequently joined forces with Steve Aoki and his Dim Mak collective for a North American tour.\n\n Man on the Moon: The End of DayAfter the remixed version of \'Day 'n' Nite\' climbed the U.K. singles charts, Cudi released his conceptual debut album, Man on the Moon: The End of Day, in the summer of 2009. A year later he returned with a sequel, Man on the Moon, Vol. 2: The Legend of Mr. Rager. In 2012, he teamed with \'Day 'n' Nite\' producer Dot Da Genius and introduced their rock-rap band, WZRD. A year after that, Indicud arrived and included contributions from soft rock sisters HAIM and former Fleet Foxes drummer Father John Misty alongside rappers A$AP Rocky and Kendrick Lamar.\n Satellite Flight: The Journey to Mother MoonIn early 2014, Cudi surprised fans by releasing the next installment in his space odyssey with little warning. Satellite Flight: The Journey to Mother Moon, which featured a guest spot from Raphael Saadiq, was issued on February 25 on Wicked Awesome/Republic. The sprawling Speedin' Bullet 2 Heaven followed in 2015 with a grunge-inspired rock sound much closer to the WZRD project. Just over a year later, Cudi returned to the rap world with Passion, Pain n Demon Slayin', which featured André 3000, Pharrell Williams, Travis Scott, and Willow Smith. The set peaked outside the Top Ten of the Billboard 200, while entering the Top Five of the RnB and rap charts.\n Rampage [Original Motion Picture Soundtrack]Cudi kicked off 2018 with the Smashing Pumpkins-sampling \'The Rage\' from the soundtrack of the film Rampage. Months later, he joined longtime mentor and collaborator Kanye West to form the duo Kids See Ghosts. The pair issued the seven-track Kids See Ghosts in June as part of West's Jackson Hole, Wyoming recording sessions for GOOD Music. The set featured appearances by Pusha T, Mos Def, and Ty Dolla $ign. In April 2020, Cudi returned with the solo single \'Leader of the Delinquents,\' a Dot Da Genius-produced track he'd first teased at a concert in 2012. April of 2020 also saw the debut of THE SCOTTS, a duo of Cudi and Travis Scott who came together over a gloomy trap instrumental on a song also called \'The Scotts.\' Cudi also continued work on his next album, Entergalactic, which would also serve as the soundtrack for an upcoming adult animated Netflix series of the same name."
+            android:scrollbars=""
+            android:textSize="19sp"
+            android:id="@+id/txtDescription"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

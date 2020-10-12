@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutDetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ivImage2"
+            android:src="@drawable/yachty"
+            android:scaleType="centerCrop"
+            android:contentDescription="yachty" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="Combining feel-good positivity, druggy weirdness, and wild ATLian flair into a style he termed \'bubblegum trap,\' rapper Lil Yachty scored his first platinum single with \'One Night\' (2016). Within two years, he had a pair of Top Ten albums with Teenage Emotions (2017) and Lil Boat 2 (2018), and a Grammy nomination via DRAM's \'Broccoli,\' on which he was featured. Between the release dates of those proper albums for the Quality Control label, Yachty's approach shifted from a reliance upon willfully off-key singing and lackadaisical rhyming to that of a comparatively traditional MC, albeit with his irreverent sense of humor still gamely displayed. His style has continued to evolve with his following recordings, including Lil Boat 3 (2020), his fourth LP.\n Lil BoatBorn Miles McCollum in the metropolitan Atlanta city of Mableton, Yachty began to break in 2015, when Drake's OVO Sound Radio aired his bizarre and singsongy \'Minnesota.\' He truly crossed over in 2016. During the year, he released Lil Boat and Summer Songs 2, his first two commercial mixtapes for the emergent Quality Control Music. The former featured \'Minnesota\' along with \'One Night,\' a woozy party cut that reached number 30 on Billboard's Hot RnB/Hip-Hop chart, cracked the Hot 100, and also went platinum. Also during the year, he was featured on DRAM's \'Broccoli\' and Kyle's \'iSpy,\' both of which went Top Ten pop, and was part of Chance the Rapper's Top Ten release Coloring Book. \'Broccoli\' was nominated for a Grammy in the category of Best Rap/Sung Collaboration. Coloring Book took the award for Best Rap Album.\n 'Nuthin' 2 ProveYachty continually added to his secondary discography as a collaborator, most visibly beside Carly Rae Jepsen on a remake of Rob Base n DJ E-Z Rock's \'It Takes Two,\' but during 2017 and 2018 directed most of his energy toward his first two proper albums. Teenage Emotions, issued in May 2017, peaked in the Top Ten of the Billboard 200 and Top RnB/Hip-Hop Albums charts, highlighted with the charting single \'Peek a Boo,\' featuring Migos. Yachty returned the following March with Lil Boat 2, on which he sounded more like a traditional rapper with greater emphasis on enunciated verses and a reduction in off-key vocalizations. With tracks featuring PnB Rock, YoungBoy Never Broke Again, and Trippie Redd among its highlights, the album went Top Ten on multiple Billboard charts. That year, Yachty also released Nuthin' 2 Prove, which included \'Who Want the Smoke?\' with Cardi B and Offset. The set peaked just outside the Top Ten of the Billboard 200 and reached number nine on the RnB/hip-hop chart.\n 'Lil Yachty issued a handful of stray tracks in 2019. Early the next year, he teamed up with Lil Keed and Zaytoven for the A-Team mixtape, and soon hit the Hot 100 as a lead artist for the third time with \'Oprah's Bank Account,\' featuring Drake and DaBaby. That May, following the release of \'Split/Whole Time,\' Yachty issued Lil Boat 3, which contained the two preceding singles and entered the Billboard 200 at number 14."
+            android:scrollbars=""
+            android:textSize="19sp"
+            android:id="@+id/txtDescription"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

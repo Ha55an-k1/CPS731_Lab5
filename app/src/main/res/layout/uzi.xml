@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AboutDetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/ivImage2"
+            android:src="@drawable/uzi"
+            android:scaleType="centerCrop"
+            android:contentDescription="uzi" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="A rapper who grew up on the beats of Marilyn Manson and Kanye's 808s and Heartbreak, Lil Uzi Vert emerged from North Philadelphia with a relaxed style that connected the dots between Young Thug, Chief Keef, and the A$AP Mob. After contributing a featured verse to Migos' number one hit \'Bad and Boujee,\' he broke through on his own with two consecutive chart-topping LPs, 2017's Luv Is Rage 2 (capped by the groundbreaking trap-pop anthem \'XO Tour Llif3\') and 2020's Eternal Atake.\n 'Luv Is RageFeatured on some DJ Diamond Kuts tracks, Uzi kicked his career into high gear in 2014 when he dropped \'Dej Loaf,\' a dedication to the Detroit vocalist. Don Cannon hosted his mixtape The Real Uzi that same year, and DJ Drama helped broker a deal with Atlantic Records, which released his Luv Is Rage mixtape late in 2015. Don Cannon was back for the early-2016 mixtape Lil Uzi vs. the World, which also featured beats from Metro Boomin and Maaly Raw. Two of its tracks -- \'You Was Right\' and \'Money Longer\' -- crossed over and reached the Billboard Hot 100, while the mixtape itself broke into the Billboard 200 Top 50. Months later, The Perfect Luv Tape was issued, peaking at number 55. By the end of the year, his collaboration with Migos -- the viral hit \'Bad and Boujee\' -- began its ascent to the top of the Billboard Hot 100, hitting number one at the start of 2017. Later that year, Uzi issued the single \'XO Tour Llif3.\' The track climbed into the Top Ten of the Hot 100 and would be the first offering from his chart-topping debut LP, Luv Is Rage 2. The LP featured guests like Oh Wonder, Pharrell Williams, and the Weeknd. Uzi's success continued in 2018, as he landed another hit with the non-album single \'New Patek,\' and was featured alongside Kanye West on Travis Scott's hit \'Watch.\' \'That's a Rack\' and \'Sanguine Paradise\' appeared early the next year. In March of 2020, his second studio album, Eternal Atake, arrived. It debuted at number one on the Billboard charts and was streamed more than 400 million times in its first week alone. One week after the release of Eternal Atake, a deluxe version featuring an album's worth of outtakes and extra tracks was released. The collection, Lil Uzi Vert vs. The World 2, featured many more outside contributions than the proper album. Special guest spots included cameos from NAV, 21 Savage, Future, Gunna, and several others."
+            android:scrollbars=""
+            android:textSize="19sp"
+            android:id="@+id/txtDescription"/>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
